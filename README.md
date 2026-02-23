@@ -1,4 +1,4 @@
-# Task Managemer
+# Task Manager
 
 A RESTful API built with ASP.NET Core and PostgreSQL for managing tasks with user authentication.
 
