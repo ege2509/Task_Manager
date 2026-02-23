@@ -129,3 +129,4 @@ C:\Users\User\OneDrive\Masaüstü\TaskManagementApi\TaskManagementApi\obj\Debug\
 C:\Users\User\OneDrive\Masaüstü\TaskManagementApi\TaskManagementApi\obj\Debug\net10.0\TaskManagementApi.genruntimeconfig.cache
 C:\Users\User\OneDrive\Masaüstü\TaskManagementApi\TaskManagementApi\obj\Debug\net10.0\ref\TaskManagementApi.dll
 C:\Users\User\OneDrive\Masaüstü\TaskManagementApi\TaskManagementApi\bin\Debug\net10.0\BCrypt.Net-Next.dll
+C:\Users\User\OneDrive\Masaüstü\TaskManagementApi\TaskManagementApi\obj\Debug\net10.0\TaskManagementApi.sourcelink.json
