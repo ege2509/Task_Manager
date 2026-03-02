@@ -25,9 +25,14 @@ namespace TaskManagementApi.Controllers
 
         // GET /api/tasks
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<TaskResponseDto>>> GetTasks()
+        public async Task<ActionResult<IEnumerable<TaskResponseDto>>> GetTasks([FromQuery] DateTime? from, [FromQuery] DateTime? to)
         {
             var userId = GetUserId();
+
+            var query = _context.Tasks.Where(t => t.UserId == userId);
+            
+            if (from.HasValue) query = query.Where(t => t.DueDate >= from);
+            if (to.HasValue) query = query.Where(t => t.DueDate <= to);
 
             var tasks = await _context.Tasks
                 .Where(t => t.UserId == userId)
