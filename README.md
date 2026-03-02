@@ -125,25 +125,6 @@ Content-Type: application/json
 - `DELETE /api/tasks/{id}` - Delete a task
 - `GET /api/tasks/{id}` - Get a task
 
-## Project Structure
-
-```
-TaskManagementApi/
-├── Controllers/
-│   └── AuthController.cs       # Authentication endpoints
-├── Data/
-│   └── AppDbContext.cs         # Database context
-├── DTOs/
-│   ├── RegisterDto.cs          # Registration request
-│   ├── LoginDto.cs             # Login request
-│   ├── UserResponseDto.cs      # User response
-│   └── LoginResponseDto.cs     # Login response with token
-├── Models/
-│   ├── User.cs                 # User entity
-│   └── TaskItem.cs             # Task entity
-├── Migrations/                 # EF Core migrations
-├── appsettings.json           # Configuration
-└── Program.cs                 # Application entry point
 ```
 
 
